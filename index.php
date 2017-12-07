@@ -16,6 +16,23 @@
 	<!-- Custom styles for this template -->
 	<link href="css/shop-homepage.css" rel="stylesheet">
 
+	<link rel=icon href="img/icon.png">
+
+	<!-- Colle le footer en bas-->
+	<style type="text/css">
+		body {
+		   height:100%;
+		}
+
+		footer {
+		   position:absolute;
+		   bottom:0;
+		   width:100%;
+		   height:60px;
+		   background:#6cf;
+		}
+	</style>
+
 </head>
 
 <body>
@@ -35,12 +52,15 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">A propos</a>
+						<a class="nav-link" href="http://www.apropospaysage.fr/index.php/presentation-de-lagence" target="_blank">A propos</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+
+
+
 
 	<!-- Page Content -->
 	<div class="container">
@@ -59,13 +79,19 @@
 
 			<div class="col-lg-9">
 
-				<div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+				<div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel" >
 						<div class="card h-100">
-							<div class="card-body">
+							<div class="card-body" data-toggle="collapse" href="#description" aria-expanded="false" aria-controls="description">
 								<h4 class="card-title">
-									<a href="#">Qui amène quoi</a>
+									<a href="#">Soirée chez Michou</a>
 								</h4>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+								<p class="card-text">Clique pour plus d'infos</p>
+
+							</div>
+							<div class="collapse" id="description">
+								<div class="card card-body card-text">
+									On fait la fête allez cool
+								</div>
 							</div>
 						</div>
 				</div>
@@ -74,7 +100,7 @@
 
 					<div class="col-lg-6 col-md-6 mb-4">
 						<div class="card h-100">
-							<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+							<a href="#"><img class="card-img-top" src="img/boisson.jpg" alt=""></a>
 							<div class="card-body">
 								<h4 class="card-title">
 									<a href="#">Qui amène quoi</a>
@@ -86,12 +112,13 @@
 
 					<div class="col-lg-6 col-md-6 mb-4">
 						<div class="card h-100">
-							<a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+							<a href="https://covoit.net/evenement.html?id=2322538ou71207q26oycnv2n"><img class="card-img-top" src="img/covoit.jpg" alt=""></a>
 							<div class="card-body">
 								<h4 class="card-title">
-									<a href="#">Covoit</a>
+									<a href="https://covoit.net/evenement.html?id=2322538ou71207q26oycnv2ns">Covoit'</a>
 								</h4>
-								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+								<img src="">
+								<p class="card-text">Clique ici pour avoir plus d'infos sur le covoiturage</p>
 							</div>
 						</div>
 					</div>
@@ -110,12 +137,12 @@
 	<!-- /.container -->
 
 	<!-- Footer -->
-	<footer class="py-5 bg-dark">
-		<div class="container">
-			<p class="m-0 text-center text-white">Copyright &copy; La nuit de l'info et l'internet digital web 2.0 blockchain chat libre gnu gcc sécurité routière</p>
-		</div>
-		<!-- /.container -->
-	</footer>
+		<footer class="py-5 bg-dark">
+			<div class="container">
+				<p class="m-0 text-center text-white">Copyright &copy; La nuit de l'info et l'internet digital web 2.0 blockchain chat libre gnu gcc sécurité routière</p>
+			</div>
+			<!-- /.container -->
+		</footer>
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="vendor/jquery/jquery.min.js"></script>

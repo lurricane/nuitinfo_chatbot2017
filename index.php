@@ -22,6 +22,7 @@
 	<style type="text/css">
 		body {
 		   height:100%;
+		   background-color: #4a412a;
 		}
 
 		footer {
@@ -68,10 +69,17 @@
 		<div class="row">
 
 			<div class="col-lg-3">
-
-				<h1 class="my-4">Chat Bot Du Sale</h1>
+				<style type="text/css">
+					#text-noir
+					{
+					 text-decoration:none;
+					 color: lime;
+					 font-family: Comic Sans Ms;
+					}
+				</style>
+				<h1 class="my-4"><a href="index.php" id="text-noir" >Chat Bot Du Sale</h1></a>
 				<div class="list-group">
-					<a href="#" class="list-group-item">Infos</a>
+					<a href="index.php" class="list-group-item">Infos</a>
 					<a href="#" class="list-group-item">Chat</a>
 				</div>
 

@@ -34,6 +34,8 @@
 		}
 	</style>
 
+	<script type="text/javascript" src="js/konami.js"></script>
+
 </head>
 
 <body>

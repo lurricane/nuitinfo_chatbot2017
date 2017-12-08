@@ -34,11 +34,11 @@
 		}
 	</style>
 
-	<script type="text/javascript" src="js/konami.js"></script>
 
 </head>
 
 <body>
+	<script type="text/javascript" src="js/konami.js"></script>
 
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">

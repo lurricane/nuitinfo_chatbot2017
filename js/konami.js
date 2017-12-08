@@ -6,6 +6,7 @@ if ( window.addEventListener ) {
             alert('KONAMIIIIII AAAAAAAH BANZIBQSUIHDIUQSHFIUHBSDGHSIUHDFUSHVNSHBVUYHSBDIFDIFSI');
             var link = "https://rickrolled.fr/";
             open(link,"_blank");
+			kkeys = [];
         }
     }, true);
 }
